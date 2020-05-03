@@ -15,6 +15,7 @@
 		DC58599D245F6387005D4E21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC58599C245F6387005D4E21 /* Preview Assets.xcassets */; };
 		DC5859A0245F6387005D4E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC58599E245F6387005D4E21 /* LaunchScreen.storyboard */; };
 		DC5859AB245F6387005D4E21 /* NavigationViewSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5859AA245F6387005D4E21 /* NavigationViewSwiftUIUITests.swift */; };
+		DC5859B6245F65DC005D4E21 /* hiclipart.com.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5859B5245F65DC005D4E21 /* hiclipart.com.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		DC5859A6245F6387005D4E21 /* NavigationViewSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationViewSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5859AA245F6387005D4E21 /* NavigationViewSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewSwiftUIUITests.swift; sourceTree = "<group>"; };
 		DC5859AC245F6387005D4E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5859B5245F65DC005D4E21 /* hiclipart.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiclipart.com.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				DC585992245F6385005D4E21 /* SceneDelegate.swift */,
 				DC585997245F6385005D4E21 /* ContentView.swift */,
 				DC585999245F6387005D4E21 /* Assets.xcassets */,
+				DC5859B5245F65DC005D4E21 /* hiclipart.com.png */,
 				DC58599E245F6387005D4E21 /* LaunchScreen.storyboard */,
 				DC5859A1245F6387005D4E21 /* Info.plist */,
 				DC585994245F6385005D4E21 /* NavigationViewSwiftUI.xcdatamodeld */,
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5859A0245F6387005D4E21 /* LaunchScreen.storyboard in Resources */,
+				DC5859B6245F65DC005D4E21 /* hiclipart.com.png in Resources */,
 				DC58599D245F6387005D4E21 /* Preview Assets.xcassets in Resources */,
 				DC58599A245F6387005D4E21 /* Assets.xcassets in Resources */,
 			);
@@ -371,6 +375,7 @@
 				DEVELOPMENT_TEAM = UCPH8DTAC9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NavigationViewSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +396,7 @@
 				DEVELOPMENT_TEAM = UCPH8DTAC9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NavigationViewSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

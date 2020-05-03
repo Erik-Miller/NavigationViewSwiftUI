@@ -8,10 +8,25 @@
 
 import SwiftUI
 
+
+
+
+
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
-    }
+        NavigationView{
+            Button("Hello World"){
+                
+            }.navigationBarTitle("Primary")
+                .navigationBarItems(trailing: Button("Create") {
+                    // do something
+                })
+          
+            Text("Second View")
+                
+        }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +34,23 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
+
+
+
+
+// Additional Code Bits
+
+//                //Able to show a detail view and hide one programattically
+//
+//                Button("Tap to show detail view"){
+//                    self.selection = "Third"
+//
+//                    DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+//                        self.selection = ""
+//                    }
+//
+//                }
